@@ -4,6 +4,6 @@
 
 - `npm ci`
 - `npm run start`
-- open http://localhost:3000/rolldice
-- open http://localhost:3000/metrics
+- open http://localhost:8080/rolldice
+- open http://localhost:8080/metrics
   - metrics output includes server histogram for `/rolldice`
