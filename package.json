@@ -1,11 +1,12 @@
 {
   "scripts": {
-    "start": "ts-node app.ts"
+    "start": "ts-node --require ./instrumentation.ts ./app.ts"
   },
   "dependencies": {
     "@opentelemetry/api": "1.7.0",
     "@opentelemetry/instrumentation-express": "0.35.0",
     "@opentelemetry/instrumentation-http": "0.48.0",
+    "@opentelemetry/semantic-conventions": "1.21.0",
     "@opentelemetry/exporter-prometheus": "0.48.0",
     "@opentelemetry/sdk-metrics": "1.21.0",
     "@opentelemetry/sdk-node": "0.48.0",
